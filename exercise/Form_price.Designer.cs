@@ -40,32 +40,36 @@
             // txtprice
             // 
             this.txtprice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtprice.Location = new System.Drawing.Point(163, 69);
+            this.txtprice.Location = new System.Drawing.Point(143, 52);
+            this.txtprice.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtprice.Name = "txtprice";
-            this.txtprice.Size = new System.Drawing.Size(122, 34);
+            this.txtprice.Size = new System.Drawing.Size(107, 29);
             this.txtprice.TabIndex = 0;
             // 
             // txt_tax
             // 
             this.txt_tax.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_tax.Location = new System.Drawing.Point(163, 111);
+            this.txt_tax.Location = new System.Drawing.Point(143, 83);
+            this.txt_tax.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_tax.Name = "txt_tax";
-            this.txt_tax.Size = new System.Drawing.Size(124, 34);
+            this.txt_tax.Size = new System.Drawing.Size(109, 29);
             this.txt_tax.TabIndex = 1;
             // 
             // txtdiscount
             // 
             this.txtdiscount.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtdiscount.Location = new System.Drawing.Point(164, 155);
+            this.txtdiscount.Location = new System.Drawing.Point(144, 116);
+            this.txtdiscount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtdiscount.Name = "txtdiscount";
-            this.txtdiscount.Size = new System.Drawing.Size(123, 34);
+            this.txtdiscount.Size = new System.Drawing.Size(108, 29);
             this.txtdiscount.TabIndex = 2;
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(113, 236);
+            this.btnCalculate.Location = new System.Drawing.Point(99, 177);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(215, 86);
+            this.btnCalculate.Size = new System.Drawing.Size(188, 64);
             this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -75,9 +79,9 @@
             // 
             this.lblprice.AutoSize = true;
             this.lblprice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblprice.Location = new System.Drawing.Point(304, 72);
+            this.lblprice.Location = new System.Drawing.Point(266, 54);
             this.lblprice.Name = "lblprice";
-            this.lblprice.Size = new System.Drawing.Size(59, 28);
+            this.lblprice.Size = new System.Drawing.Size(47, 21);
             this.lblprice.TabIndex = 4;
             this.lblprice.Text = "قیمت";
             // 
@@ -85,9 +89,9 @@
             // 
             this.lbltax.AutoSize = true;
             this.lbltax.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbltax.Location = new System.Drawing.Point(304, 111);
+            this.lbltax.Location = new System.Drawing.Point(266, 83);
             this.lbltax.Name = "lbltax";
-            this.lbltax.Size = new System.Drawing.Size(66, 28);
+            this.lbltax.Size = new System.Drawing.Size(52, 21);
             this.lbltax.TabIndex = 4;
             this.lbltax.Text = "مالیات";
             // 
@@ -95,17 +99,17 @@
             // 
             this.lbl_discount.AutoSize = true;
             this.lbl_discount.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_discount.Location = new System.Drawing.Point(304, 155);
+            this.lbl_discount.Location = new System.Drawing.Point(266, 116);
             this.lbl_discount.Name = "lbl_discount";
-            this.lbl_discount.Size = new System.Drawing.Size(68, 28);
+            this.lbl_discount.Size = new System.Drawing.Size(53, 21);
             this.lbl_discount.TabIndex = 4;
             this.lbl_discount.Text = "تخفیف";
             // 
             // Form_price
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 437);
+            this.ClientSize = new System.Drawing.Size(425, 319);
             this.Controls.Add(this.lbl_discount);
             this.Controls.Add(this.lbltax);
             this.Controls.Add(this.lblprice);
@@ -113,6 +117,7 @@
             this.Controls.Add(this.txtdiscount);
             this.Controls.Add(this.txt_tax);
             this.Controls.Add(this.txtprice);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form_price";
             this.Text = "price";
             this.ResumeLayout(false);
